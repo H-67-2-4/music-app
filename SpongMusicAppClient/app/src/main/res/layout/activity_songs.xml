@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+
+    tools:context=".SongsActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="130dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progressbarshowsong"
+        android:indeterminate="true"
+        >
+
+    </ProgressBar>
+
+    <com.example.jean.jcplayer.view.JcPlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jcplayer"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        app:next_icon_color="@color/cardview_light_background"
+        app:pause_icon_color="@color/cardview_light_background"
+        app:play_icon_color="@color/cardview_light_background"
+        app:previous_icon_color="@color/cardview_light_background"
+        app:progress_color="@color/cardview_light_background"
+        app:random_icon_color="@color/cardview_light_background"
+        app:repeat_icon_color="@color/cardview_light_background"
+        app:repeat_one_icon_color="@color/cardview_light_background"
+        app:seek_bar_color="@color/cardview_light_background"
+        app:text_audio_current_duration_color="@color/cardview_light_background"
+        app:text_audio_duration_color="@color/cardview_light_background"
+        app:text_audio_title_color="@color/cardview_light_background"
+        >
+
+
+    </com.example.jean.jcplayer.view.JcPlayerView>
+
+</RelativeLayout>

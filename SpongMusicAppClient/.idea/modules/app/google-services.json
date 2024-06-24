@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "745810565908",
+    "firebase_url": "https://spong-music-app.firebaseio.com",
+    "project_id": "spong-music-app",
+    "storage_bucket": "spong-music-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745810565908:android:0113ad6f672f61b2e24001",
+        "android_client_info": {
+          "package_name": "com.example.spongmusicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745810565908-83cjvdk1keihitdnntlo2kgl1u00bgt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spongmusicapp",
+            "certificate_hash": "363130ea8126aa62a2b35e779bb7d438a3870d41"
+          }
+        },
+        {
+          "client_id": "745810565908-pht19pgb6c2i945vj7caogvm3d7ogk88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY7pC1hVIYx-PcxW_t2JYtmXtM5WASoXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745810565908-pht19pgb6c2i945vj7caogvm3d7ogk88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745810565908:android:239cc30b77704d13e24001",
+        "android_client_info": {
+          "package_name": "com.example.spongmusicappclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745810565908-kfm8bkuooja76enn3afm69m1q7lasnc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spongmusicappclient",
+            "certificate_hash": "363130ea8126aa62a2b35e779bb7d438a3870d41"
+          }
+        },
+        {
+          "client_id": "745810565908-pht19pgb6c2i945vj7caogvm3d7ogk88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY7pC1hVIYx-PcxW_t2JYtmXtM5WASoXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745810565908-pht19pgb6c2i945vj7caogvm3d7ogk88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
